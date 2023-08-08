@@ -1,0 +1,50 @@
+<config>
+    <api_token>5942614012:AAHav5RgRYEDiHW5QnGvwPL8J-pmDl-aYgI</api_token>
+    
+    <messages>
+        <welcome>
+            <![CDATA[
+🤖 Hello! I am your Wikipedia bot. Send /search to find articles. 📚
+            ]]>
+        </welcome>
+        
+        <search_prompt>
+            <![CDATA[
+🔍 Please enter the title of the article you'd like to read:
+            ]]>
+        </search_prompt>
+        
+        <help_text>
+            <![CDATA[
+🔍 To search for an article, simply type the title of the article you're looking for. 
+The bot will provide you with a summary and a link to the full article. 📖🔗
+
+🤖 Here's how I work:
+1. Send /search to begin a search.
+2. Type the title of the article you want to read.
+3. I'll show you a summary and a link to the full article. 📝📚
+
+You can also use /help to see this message again. ℹ️
+            ]]>
+        </help_text>
+        
+        <ambiguous_error>
+            <![CDATA[
+❗️ Your search query '{search_query}' is ambiguous. Please choose a specific option:
+            {options}
+            ]]>
+        </ambiguous_error>
+        
+        <not_found_error>
+            <![CDATA[
+❌ Sorry, I couldn't find an article for '{search_query}'. Please try a different search.
+            ]]>
+        </not_found_error>
+        
+        <unknown_command_error>
+            <![CDATA[
+❓ I'm sorry, I didn't understand your request. Please use /search to find articles.
+            ]]>
+        </unknown_command_error>
+    </messages>
+</config>
