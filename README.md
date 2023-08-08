@@ -2,7 +2,7 @@
 
 ## Description
 
-Wikipedia Search Bot is a Telegram bot built using the `aiogram` library in Python. The bot allows users to search for articles on Wikipedia and provides summaries and links to the full articles. Users can interact with the bot by sending commands and text messages to initiate searches and receive article information.
+WikiBot is a Telegram bot built using the `aiogram` library in Python. The bot allows users to search for articles on Wikipedia and provides summaries and links to the full articles. Users can interact with the bot by sending commands and text messages to initiate searches and receive article information.
 
 ## Features
 
@@ -13,7 +13,7 @@ Wikipedia Search Bot is a Telegram bot built using the `aiogram` library in Pyth
 
 ## Technology Used and Setup
 
-To run the Wikipedia Search Bot, you need to have Python installed on your system. The bot uses the `aiogram` library for interacting with the Telegram API and the `xml.etree.ElementTree` library for parsing the configuration XML. You can install the required libraries using the following command:
+To run the WikiBot, you need to have Python installed on your system. The bot uses the `aiogram` library for interacting with the Telegram API and the `xml.etree.ElementTree` library for parsing the configuration XML. You can install the required libraries using the following command:
 
 ```bash
 pip install -r requirements.txt
@@ -49,8 +49,8 @@ Make sure you have `pip` installed and properly configured.
 
 You can customize the bot's messages, behavior, and error handling by modifying the `bot.py` script. The provided XML configuration (`config.xml`) contains messages and error templates that the bot uses. You can adjust these templates to suit your preferences.
 
-**Note:** The Wikipedia Search Bot is designed for educational and personal use. Make sure to follow Telegram's [bot guidelines](https://core.telegram.org/bots) and Wikipedia's [API terms of use](https://en.wikipedia.org/wiki/Wikipedia:Creating_a_bot#API_terms_of_use) when using the bot.
+**Note:** The WikiBot is designed for educational and personal use. Make sure to follow Telegram's [bot guidelines](https://core.telegram.org/bots) and Wikipedia's [API terms of use](https://en.wikipedia.org/wiki/Wikipedia:Creating_a_bot#API_terms_of_use) when using the bot.
 
-Enjoy searching and learning with the Wikipedia Search Bot!
+Enjoy searching and learning with the WikiBot!
 
 **Disclaimer:** This bot relies on external libraries and APIs, and its functionality may be affected by updates to these libraries and APIs.
